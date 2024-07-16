@@ -5,7 +5,14 @@
 
              constructor() {
 
-                this.dinheiro = 120
+                this.dinheiro = localStorage.getItem('Saldo')
+
+                if(!localStorage.getItem('Saldo')) {
+
+                    localStorage.setItem('Saldo', 10000)
+                    window.location.reload()
+
+                }
 
                 }
 
@@ -14,6 +21,14 @@
                 //LOGICA DO SALDO 
 
                 document.querySelector('#dinheiro_disponivel').innerHTML = this.dinheiro
+
+            }
+
+            addSaldo() {
+
+                localStorage.setItem('Saldo', 10000)
+                window.location.reload()  
+
 
             }
 
@@ -34,6 +49,8 @@
                    else {
 
                     let validarSaldoMenorDoQueTem = this.dinheiro - document.querySelector('#valorAposta').value
+
+                    localStorage.setItem('Saldo', validarSaldoMenorDoQueTem)
 
                     if(validarSaldoMenorDoQueTem < 0) {
 
@@ -248,6 +265,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -321,6 +339,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -396,6 +415,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -504,6 +524,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -576,6 +597,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -650,6 +672,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -750,6 +773,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -824,6 +848,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -898,6 +923,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1000,6 +1026,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1074,6 +1101,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1148,6 +1176,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1249,6 +1278,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1323,6 +1353,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1397,6 +1428,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1496,6 +1528,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1568,6 +1601,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1642,6 +1676,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1744,6 +1779,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1819,6 +1855,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
@@ -1893,6 +1930,7 @@
         
                                 let saldoAtualizado = parseFloat(this.dinheiro) + parseFloat(oddAtualizada)
                                 this.dinheiro = saldoAtualizado
+                                localStorage.setItem('Saldo', saldoAtualizado)
                                 document.querySelector('#dinheiro_disponivel').innerHTML = saldoAtualizado
                                 document.querySelector('#botaoAtualizandoCashout').remove()
                                 //TRABALHAR AQUI PARA REMOVER BOTAO(CASHOUT) E BLOQUEAR SEQUENCIA DE JOGO
