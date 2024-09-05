@@ -109,7 +109,7 @@
 
                         //LOGICA AUDIO CASHOUT(VITORIA)
                         let audio = new Audio()
-                        audio.src = 'audio/audio4.mp3'
+                        audio.src = './AUDIO/audio4.mp3'
                         audio.play()
 
                         
@@ -142,7 +142,7 @@
             reiniciarJogo() {
 
                 let audio = new Audio()
-                audio.src = 'audio/audio5.mp3'
+                audio.src = './AUDIO/audio5.mp3'
                 audio.play()
 
                 setTimeout(() => {
@@ -227,7 +227,7 @@
                             document.querySelector('#campo_3').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -245,7 +245,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
 
                             //MULTIPLICACAO ODD
@@ -258,7 +258,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -319,7 +319,7 @@
     
                             //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
     
                             
@@ -331,7 +331,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
 
                                                                 
@@ -380,7 +380,7 @@
                             document.querySelector('#campo_2').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -395,7 +395,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
                             
 
@@ -408,7 +408,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -485,7 +485,7 @@
                             document.querySelector('#campo_6').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -503,7 +503,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
 
                             //MULTIPLICACAO ODD
@@ -516,7 +516,7 @@
 
                                  //LOGICA AUDIO CASHOUT(VITORIA)
                                  let audio = new Audio()
-                                 audio.src = 'audio/audio4.mp3'
+                                 audio.src = './AUDIO/audio4.mp3'
                                  audio.play()                                                    
                                 
 
@@ -561,7 +561,7 @@
                             document.querySelector('#campo_6').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -578,7 +578,7 @@
     
                             //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
     
                             
@@ -590,7 +590,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -638,7 +638,7 @@
                             document.querySelector('#campo_5').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -653,7 +653,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
                             
 
@@ -665,7 +665,7 @@
 
                                  //LOGICA AUDIO CASHOUT(VITORIA)
                                  let audio = new Audio()
-                                 audio.src = 'audio/audio4.mp3'
+                                 audio.src = './AUDIO/audio4.mp3'
                                  audio.play()                                                        
                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -735,7 +735,7 @@
                             document.querySelector('#campo_9').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -753,7 +753,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
 
                             //MULTIPLICACAO ODD
@@ -766,7 +766,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -812,7 +812,7 @@
                             document.querySelector('#campo_9').id = 'null'
                             
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -829,7 +829,7 @@
     
                             //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
     
                             
@@ -841,7 +841,7 @@
 
                                  //LOGICA AUDIO CASHOUT(VITORIA)
                                  let audio = new Audio()
-                                 audio.src = 'audio/audio4.mp3'
+                                 audio.src = './AUDIO/audio4.mp3'
                                  audio.play()                               
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -889,7 +889,7 @@
                             document.querySelector('#campo_7').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -904,7 +904,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
                             
 
@@ -916,7 +916,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()                                
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -988,7 +988,7 @@
                             document.querySelector('#campo_12').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1006,7 +1006,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
 
                             //MULTIPLICACAO ODD
@@ -1019,7 +1019,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1065,7 +1065,7 @@
                             document.querySelector('#campo_12').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1082,7 +1082,7 @@
     
                             //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
     
                             
@@ -1094,7 +1094,7 @@
 
                                  //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1142,7 +1142,7 @@
                             document.querySelector('#campo_10').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1157,7 +1157,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
                             
 
@@ -1169,7 +1169,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1240,7 +1240,7 @@
                             document.querySelector('#campo_15').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1258,7 +1258,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
 
                             //MULTIPLICACAO ODD
@@ -1271,7 +1271,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1317,7 +1317,7 @@
                             document.querySelector('#campo_15').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1334,7 +1334,7 @@
     
                             //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
     
                             
@@ -1346,7 +1346,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1394,7 +1394,7 @@
                             document.querySelector('#campo_13').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1409,7 +1409,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
                             
 
@@ -1421,7 +1421,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()                                
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1490,7 +1490,7 @@
                             document.querySelector('#campo_18').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1508,7 +1508,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
 
                             //MULTIPLICACAO ODD
@@ -1521,7 +1521,7 @@
 
                                  //LOGICA AUDIO CASHOUT(VITORIA)
                                  let audio = new Audio()
-                                 audio.src = 'audio/audio4.mp3'
+                                 audio.src = './AUDIO/audio4.mp3'
                                  audio.play()                               
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1565,7 +1565,7 @@
                             document.querySelector('#campo_18').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1582,7 +1582,7 @@
     
                             //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
     
                             
@@ -1594,7 +1594,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play() 
                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1642,7 +1642,7 @@
                             document.querySelector('#campo_17').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1657,7 +1657,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
                             
 
@@ -1669,7 +1669,7 @@
 
                                  //LOGICA AUDIO CASHOUT(VITORIA)
                                  let audio = new Audio()
-                                 audio.src = 'audio/audio4.mp3'
+                                 audio.src = './AUDIO/audio4.mp3'
                                  audio.play()
 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1740,7 +1740,7 @@
                             document.querySelector('#campo_21').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1758,7 +1758,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
 
                             //MULTIPLICACAO ODD
@@ -1772,7 +1772,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1818,7 +1818,7 @@
                             document.querySelector('#campo_21').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1835,7 +1835,7 @@
     
                             //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
     
                             
@@ -1848,7 +1848,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
@@ -1895,7 +1895,7 @@
                             document.querySelector('#campo_19').id = 'null'
 
                             let audio = new Audio()
-                            audio.src = 'audio/audio3.mp3'
+                            audio.src = './AUDIO/audio3.mp3'
                             audio.play()
 
                             document.querySelector('#botaoAtualizandoCashout').remove()
@@ -1910,7 +1910,7 @@
     
                              //LOGICA AUDIO
                             let audio = new Audio()
-                            audio.src = 'audio/audio2.mp3'
+                            audio.src = './AUDIO/audio2.mp3'
                             audio.play()
                             
 
@@ -1923,7 +1923,7 @@
 
                                 //LOGICA AUDIO CASHOUT(VITORIA)
                                 let audio = new Audio()
-                                audio.src = 'audio/audio4.mp3'
+                                audio.src = './AUDIO/audio4.mp3'
                                 audio.play()
                                                                 
                                 //ATUALIZAR SALDO APOS CASHOUT
