@@ -77,7 +77,7 @@
 
                 //AUDIO
                 let audio = new Audio()
-                audio.src = 'audio/audio1.mp3'
+                audio.src = './AUDIO/audio1.mp3'
                 audio.play()
 
                 //CRIANDO E ATRIBUINDO VALORES AO ELEMENTO
