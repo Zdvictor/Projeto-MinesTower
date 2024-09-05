@@ -2,7 +2,7 @@ Acesse meu Projeto https://zdvictor.github.io/Projeto-MinesTower/
 By Zdvictor with only HTML,CSS,BOOTSTRAP,JS
 
 🚀 MinesTower
-MinesTower é um jogo interativo desenvolvido com uma interface gráfica atraente e uma lógica de programação envolvente. O jogo desafia os usuários a aumentar seu saldo, com a opção de ganhar ou dar cashout a qualquer momento.<br />
+MinesTower é um jogo interativo desenvolvido com uma interface gráfica atraente e uma lógica de programação envolvente. O jogo desafia os usuários a aumentar seu saldo, com a opção de ganhar ou dar cashout a qualquer momento.
 
 🎯 Funcionalidades
 Saldo Inicial: O usuário começa com um saldo para iniciar suas jogadas.
